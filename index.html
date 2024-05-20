@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,69 +8,236 @@
     <script src="https://kit.fontawesome.com/abc5352ddd.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-        .container1{
+
+        .container1 {
             width: 1250px;
             margin: auto;
         }
-        .container{
+
+        .container {
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin: 0px;
         }
-        .container>div:nth-of-type(2){
+
+        .container>div:nth-of-type(2) {
             font-family: "Source Sans 3", sans-serif;
             font-size: 15px;
             font-weight: 700;
             cursor: pointer;
         }
-        #top-element{
+
+        #top-element {
             color: red;
             font-size: 11.25px;
             font-weight: 700;
             cursor: pointer;
         }
-        .container>div:nth-of-type(2)>span{
+
+        .container>div:nth-of-type(2)>span {
             padding-top: 20px;
             padding-bottom: 20px;
             padding-left: 18px;
             padding-right: 18px;
         }
-        #only-img{
+
+        #only-img {
             width: 120px;
             height: 79px;
         }
-        .container>div:nth-of-type(3)>span{
+
+        .container>div:nth-of-type(3)>span {
             padding-left: 15px;
             padding-right: 15px;
-            
+
         }
-        #second{
-            background-color: rgb(230,15,20);
-            color: rgb(255,255,255);
-            
+
+        #second {
+            background-color: rgb(230, 15, 20);
+            color: rgb(255, 255, 255);
+
             text-align: center;
         }
-        #second>p{
+
+        #second>p {
             font-size: 25px;
             font-family: "Source Sans 3", sans-serif;
             padding-top: 10px;
             padding-bottom: 10px;
             margin-bottom: 10px;
-            
+
         }
-        #third{
+
+        #third {
             font-size: 22px;
             text-align: center;
             font-weight: 500;
             font-family: "Source Sans 3", sans-serif;
         }
-        #image{
+
+        #image {
             width: 1250px;
             height: 400px;
         }
+
+        #box {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            width: 400px;
+            height: auto;
+            margin: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 30px;
+            background-color: white;
+        }
+
+        #grey-box {
+            width: 800px;
+            height: 800px;
+            background-color: rgb(230, 230, 230);
+            padding-top: 50px;
+            margin: auto;
+        }
+
+        #topic {
+            font-size: 12px;
+            font-family: "Source Sans 3", sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .button {
+            width: 135px;
+            height: 30px;
+            border: 1px solid grey;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: rgb(15, 120, 120);
+        }
+
+        #father {
+            display: block;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .facebook-img {
+            width: 15px;
+            height: 15px;
+            padding-top: 4px;
+            padding-right: 3px;
+            box-sizing: border-box;
+        }
+
+        .button1 {
+            height: 30px;
+            margin-top: 20px;
+            width: 100px;
+            border-radius: 4px;
+            border: none;
+            background-color: white;
+        }
+
+        #new {
+            display: block;
+
+            margin: auto;
+            border: none;
+            text-align: center;
+        }
+
+        #only-letter {
+            text-align: center;
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 20px;
+            padding-bottom: 30px;
+        }
+
+        #first-name {
+            width: 100px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 8px;
+            background-color: white;
+            margin-right: 20px;
+            padding-left: 10px;
+        }
+
+        #last-name {
+            width: 100px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 8px;
+            background-color: white;
+            padding-left: 10px;
+        }
+
+        #first-inputs {
+            margin: auto;
+            text-align: center;
+        }
+
+        .inputs {
+            margin: auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .many {
+            width: 235px;
+            height: 27px;
+            padding-left: 10px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        #two-one {
+            font-size: 10px;
+            margin-top: 5px;
+            margin-right: 71px;
+            margin-bottom: 0px;
+        }
+
+        #inputs-last>label {
+            font-size: 13px;
+            font-family: "Source Sans 3", sans-serif;
+        }
+
+        #register {
+            width: 235px;
+            height: 30px;
+            background-color: rgb(15, 120, 120);
+            color: white;
+            font-family: "Source Sans 3", sans-serif;
+            border: none;
+            border-radius: 3px;
+        }
+
+        #lame {
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 12px;
+        }
+
+        #lonely {
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 12px;
+            color: red;
+            text-decoration: underline;
+        }
+        #inner-boy{
+            border: 2px solid grey;
+            margin: 30px;
+            background-color: rgb(230,230,230);
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav class="container1">
@@ -99,12 +267,80 @@
                 <p>Over <span style="font-weight: 700;">6 MILLION</span> HAPPY CUSTOMERS</p>
             </div>
             <div>
-                <img id="image" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Homepage_Banner_copy_5.jpg?format=webp&w=1500&dpr=1.5" alt="">
+                <img id="image"
+                    src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Homepage_Banner_copy_5.jpg?format=webp&w=1500&dpr=1.5"
+                    alt="">
             </div>
         </nav>
     </header>
     <main>
-        
+        <div id="grey-box">
+            <div id="box">
+                <div>
+                    <p id="topic">Register with The Souled Store</p>
+                    <span id="father"><button class="button">LOGIN</button><button
+                            class="button">REGISTER</button></span>
+                </div>
+                <div id="inner-boy">
+                    <div>
+                        <span id="new">
+                            <button class="button1" type="button"><img class="facebook-img"
+                                    src="data:image/jpeg;base64,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"
+                                    alt="">Facebook</button>
+                            <button class="button1" type="button"><img class="facebook-img"
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABUFBMVEX////qQzU0qFNChfT7vAUvfPPd5/07gfSFrPc1f/T7uQCxyPr/vQD7uAD61dPpOCfpLRjqPzDpNiUspk7pMyH8wgAho0foKRHpLxsUoUDqPS0fo0bu9/D2trL3wb763Nr/+u/pOTf93Zvy9v5OsWeDxZIzqkDzn5rtZFr98O/8zmdKivRVkPXA0/sYp1bc7uChvvm73sNht3av2Ljzp6Pwhn/sVEjzo57rSj3ylY/85uX+9vXxjYbsW1D2vbn946v8x0X+8db81Hr+6b7+7Mf7wCbQ3vz92Y9vvYJjl/VFrmCf0auQyp3vfHXucmn4ysf4uHXsUTHvbyn0kB74qhHtYS3ygiP2nxf8yErwczeQs/h1ova4zvqLtlnjuRe5tC2Erz9gq0muszF7rkKWsDlNqk3Ry3g9kMk6maE2onQ/jNo8lbQ4nolAieQ5nJZTobd2v72aAAAKn0lEQVR4nO2c63faRhqHZQXs2MEWukToAsZbG2OSOoSLsY3B3SRNQ8DG293ubjftdu/b7v3//7YSYIxkzWgumhnB4fnYc2rpOe8785uLiCStWbNmzZo1a9YkRK28t19qt6uXPtV2u7S/V65diX6rROjut89OLrS8ZRiapiiOh6IommYYVt7a6N9Wr/dqot+RmHLprFOwDMVRN0CojqJZBWVcvVs6zb3zE83SIG5BUcXIX5xdL41lrTS2LAVRbqGcWuHick/0y8fTPe97tcO0e7C0lLM70QowaqV+Hrt4IRxD66W1knfjvEapN5O0LtrpS5Krc9Uibc7HqJp1WxatFKB7VlAS05vi5E/SMyLL43xy5XtAtTr7otUmlMcFFn5TxwvxdeyO84nMLkDHvtiJ9arHrH5zx8JY4FqnbbD283GsqiC/vY7Bwc9HuxDSqmcFlgMwiJo/474EuHN4NOgDjsN5Vr3Nc/XzKZxx9Nvb4FvAKcpFl5dgleMIXEQtlLj4XZ3wmkIfk+fRqWVFRIfeo3SYx3+J/xQTQFUY76p6ggU9Ckw3HGNxQ/CBQpuZ31U/6W0uGdYlI8GakBSMosBmLHZRz3eZU2CzDu8aaRHMr7rguoJk1JI56k0ARhWsqWkRZFTBq4u0CDKqoHSSlhxkVEFpnI6VDDvBahrWoj6sWnS/INpsBqsKdsVvl6awqqC0kdg0qjqOok1RHOw1LqsKSuMkplHV0SzL6Nz2qu2ST7vau+0r3n9C92RWwbZFrecY+U6vFPFZ0FV5//LEQPtog1kFu7SzjGJt9PahZ0d75/34239mFZQ6VIPQsTaqKFvVWukEfkfOrILSpUbhp1i36C/WrTrgzQs7wTJFj2rKOebB5nXHinZk16IS+XpbU0mO3+8i7yPZVZC8RxWD9LjvWn00HhlWkHQeVQs0Z32Xoe8eGFZQOiHrUaNPdwXWDbQqwwpK10RZr1r059HnD3d3LCsoERVQ6yRxh1lWHfYVlM5JpplCL6GnT28omVbwimDPpFrXiT2/ZzEWlHr4WwrHSfKWvVRgK1jDn2acTrIfvFyz/bjkF9glVE6YvlDSHOzsfv0zPMGx6HfG4+1O5vkvcRSXTfBgN5PJPP8VuqKzXC0qSR92Mr7iNxuIjk5f9BvjMhH0+TWSorqRvl8OwPlibvj8NyiKBrevzZLifWbO89/GCxbEf2uOyZvdzIJibGwYor5QJufFTmaRmNhYumnUYzcTBB4b2rLNMovzzFwREhv5dPyoBYtvw4Kw2HBuRb8uPgfhJoXGxhL2aESTQmLD4PNRcrL8PFIwOjbUjui3JSC6SQGxwXYXzghAk04VQ7GhLtmWacoLiGE4Nhh95MkYmKDPQmwsZwnfgIfhrIwPsbGUo1D6LK6GD7GhLt22d0LkgiakOIsNI7njX57EC2buY0MT/a5ExA7DmaIXGw6rHwSwBZaGAcVvvraWMir8c1JUfif6Xcl4H282Y+cD8UMONxlzCHk42jD02X1DbPgsy5jvwM9GnGgmEAtKz7afsOUl+NnvkA133qbYMAt+dvyKZm74Ls2Gm8Bno0+luwcpNtw+BT4btL+PgFyQg+Ez4LORw2LnRZoNtz4Bn40+DD9LtSEwLiBnNCF2v0y14eegR6PHIc1Ew97wyRPQo79Ej0MKQQ6G26BHv0Meh+/TbZgFrUxR906ZzLcpNwRFPvKShioslsOQfOvEx/ArwKM/rIohcNmGbkgT+CINkRfeqTf8ntrwi5Qbgpbeq1NDkOHqjEN6w7TPpSBD9DykOKVZEsOUr2mAhiuzLgWmxcrsLYCJvzr7Q9C6dGX2+MCV96qc00COhFfkrA1iuCLnpeBTjFU58wafRK3KvQX4NHFV7p7AJ8Krcn8IPtVflTtgyM0Mp3t8gbdrfL7FEHlDij6Z5jK/JzfMbhGBbAi55UbeP+V+kO06qeHpUzLQDSEf1CBONbk/vJL1EakhIYdZZEXYn0Hyy/3xlSzLOi+1GaeowxcSFhLS96W5H/7mC8pug5fblE+oA3HrNezPxK9q/A6doDd5uU15idqjsKk0fiDmcn+dCcoUcw0J6MMQNpVKcVvEXOZPc0FZH3CSm4CeouCdxQTo7y28kFiEaxE/ogo++Qj/Q7BEzP35VcCQZxHRmxQ+0cDOanK5vwQFuRbxNXKTAo+h7gHt8+9DIlDEIy52Psg9Cl3RTAC06TwkAnDLxFP0BU3MMAS06WJIBKvIQ8/jc+R1d9wwlCKXNYGQCBpWOOhJ0lfoJYwdhlFtGgoJAZPNS4ytE8KfC7dpOCT49+n36CWEL7tnBEM/IiSChhxCEb2CMYvSGYG1aVRIBHFbrAWfYhjGZsWEhdOa6JDgOxQxphm0Jl2Ya4AhEWrUIlNDdD/I7W+InbiQCBkOWQp+h9GjSDOpz/SzE1hIhBQZboZfY/QoapPO1jUoQ/Aek9mEijMIkeJ+xtuduJAI4TJa22xiCcJP2QIc7L6PCwkuVTzEOx7fjl+Tzvm7juXnV5GB4iHGQbcPWhhOqdu4hrKZ+HSziSmIPM9MqGAX0QuNZHNxE/cGJ+aQLUQRv4iybia5usHY9M6I3fsGuTHxFWU7ucuMT9iC6FExA79NPdxmMp16+BH/khF8ew+g5ZIo6mYSRzenWbw5ZlJClH1TkCOiKso2dRmLTftHDiUkSoxpGV260Thydfn4J9xhiD0KfSokk42PqZO3akOePPX4HxhnMz6YE+kMQkEPd0jm2Bjej35d/idOp+Jl4RzSPvVf0B3in260ZHdh7B//C+MA6imRIEWfTupo3uCsAOoVN/S0438jL9u2MVakQSgEPXT7qIU2sdZvhvbjqdsc/getU7OQb4Tinkzep1NH0z4axVSy2KjoEXqT/91Fiw2CpJgzIsr9wFvqrtu8aUTWstgYDWTbhQTv8U8IioTTzIwmWe6HLU3blgeVUasxpdW6qTRl13bNuD+PEBs4G98okjCce3q4rmu6pqnriH84PjZoetSHdijSExMbODv7aBriFWGxQTGPzrmhnm1ogcQG3tEFiERmGyq82Iju1C3IPwqFA+FGKkmO/xtZRbqgWEAWr+hGxQbBthdAUbyhFzaPYiNLmYQBReGzjcfx/4KDcZt0RxGJ+FiUw7GxRbbrBSumoYqLsQH5acwyK+rH97GRVE4EFFGXkkyZxcbWS+rFWgTFFITGLDbYCHqKwzQo6vqPWUaCHs00DEYvNlj5eVRSkBrJX1UGaAlXZPXRwJx67MkDWxK8wgNRbNIco1Ki21y+S74R1qlmwlfpQOqCktHm+AOIgYAycurQexrc13DuEacOnTMAnMWzQbeZf6r7mPqQ36RKf3lOxgh255AgNLfKlBQrHFpVt29E+fnUWQ9H3R6IadAFxyZDR91ucv2tKgBmdfTqlwY/n3rFTn5eNe1KWvx8iiM50YlVd+WR6PH3iMbATmhnpZv2QFg+QCm2jugl/c8bEL/hEEJ9RCWZdr0pxdbAjf8GIdJOr0R/tZFC6qOm6dUSVVPXXVsetNI0daJQb1WObNuEeuq66bq2PhgtTe0eUW+MKs2haduu/62JPmX61YlnLx9VRo360sotUqzXG63WaHTjMxr53w7VV8NszZo1a9asWZMK/g9CIq5GTSozwQAAAABJRU5ErkJggg=="
+                                    alt="">Google</button>
+                        </span>
+                    </div>
+                    <div id="only-letter">
+                        -OR-
+                    </div>
+                    <div id="first-inputs">
+                        <input type="text" name="First-name" id="first-name" placeholder="First Name *" required>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="inputs">
+                        <input class="many" type="text" name="Email-id" id="email" placeholder="Email - ID *" required>
+                    </div>
+                    <div class="inputs">
+                        <input class="many" type="password" name="password" id="password"
+                            placeholder="Choose New password *">
+                    </div>
+                    <div class="inputs">
+                        <input class="many" type="password" name="password" id="password1"
+                            placeholder="Confirm password">
+                    </div>
+                    <div class="inputs">
+                        <input class="many" type="text1" name="text1" id="text1"
+                            placeholder="Please enter your birthdate">
+                        <p id="two-one">(Avail 10% Birthday discount as a member)</p>
+                    </div>
+                    <div class="inputs">
+                        <input class="many" type="text" name="text" id="text"
+                            placeholder="Mobile Number(For order status update)">
+                    </div>
+                    <div id="inputs-last" class="inputs">
+                        <label for="">Gender</label>
+
+                        <input type="radio" name="one" id="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="one" id="female">
+                        <label for="female">Female</label>
+
+                        <input type="radio" name="one" id="others">
+                        <label for="others">Others</label>
+                    </div>
+                    <div class="inputs">
+                        <button id="register">REGISTER</button>
+                    </div>
+                    <div class="inputs">
+                        <p id="lame">Already a Customer? <span id="lonely">Login</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
