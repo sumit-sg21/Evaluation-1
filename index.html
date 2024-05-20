@@ -230,10 +230,34 @@
             color: red;
             text-decoration: underline;
         }
-        #inner-boy{
+
+        #inner-boy {
             border: 2px solid grey;
             margin: 30px;
-            background-color: rgb(230,230,230);
+            background-color: rgb(230, 230, 230);
+        }
+
+        #footer {
+            display: flex;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(230, 230, 230);
+            margin-top: 100px;
+            gap: 10px;
+            
+        }
+        #foot-img{
+            width: 50px;
+            height: 39px;
+        }
+        #foot-p{
+            font-size: 15px;
+            font-family: "Source Sans 3", sans-serif;
+            font-weight: 700;
+        }
+        .one1{
+            padding-right: 15px;
         }
     </style>
 </head>
@@ -273,7 +297,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container1">
         <div id="grey-box">
             <div id="box">
                 <div>
@@ -341,6 +365,22 @@
             </div>
         </div>
     </main>
+<section>
+    <footer>
+        <div id="footer">
+            <div>
+                <img id="foot-img" src="./newlogo.8dcc6cc.png" alt="">
+            </div>
+            <div>
+                <p id="foot-p"><i class="fa-regular fa-copyright"></i>The Souled Store 2024-25</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook fa-xl one1"></i>
+                <i class="fa-brands fa-instagram fa-xl one1"></i>
+                <i class="fa-brands fa-twitter fa-xl one1"></i>
+            </div>
+        </div>
+    </footer>
+</section>
 </body>
-
 </html>
