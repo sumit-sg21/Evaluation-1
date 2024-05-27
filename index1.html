@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        body {
+            font-family: "Open Sans", sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 1480px;
+            margin: auto;
+        }
+
+        .container>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+
+        }
+
+        #smalldiv {
+            display: flex;
+            gap: 50px;
+        }
+
+        #smalldiv>div {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #firstbutton {
+            width: 140px;
+            height: auto;
+            background-color: rgb(177, 229, 14);
+            color: rgb(0, 0, 0);
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 24px;
+            padding-right: 24px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            border: none;
+            font-weight: 500;
+        }
+
+        #venture {
+            margin-left: 70px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        #second-child {
+            margin-top: 60px;
+            margin-left: 100px;
+            margin-bottom: 50px;
+        }
+
+        #first-text {
+            font-size: 60px;
+            margin-left: 100px;
+            font-weight: 700;
+        }
+
+        #second-text {
+            font-size: 60px;
+            margin-left: 100px;
+            font-weight: 700;
+            color: rgb(107, 145, 252);
+        }
+
+        #third-text {
+            font-size: 25px;
+            margin-left: 100px;
+            width: 780px;
+            margin-top: 30px;
+            color: rgb(73, 75, 87);
+            font-weight: 700;
+        }
+
+        #second-button {
+            width: 200px;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: 40px;
+            background-color: rgb(18, 19, 25);
+            border: none;
+            color: white;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        #third-div {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            margin-bottom: 270px;
+        }
+
+        #long-text {
+            width: 830px;
+            color: rgb(18, 19, 25);
+            font-weight: 700;
+            font-size: 40px;
+
+        }
+
+        #small {
+            font-size: 50px;
+            margin-left: 100px;
+            color: rgb(73, 75, 87);
+            font-weight: 700;
+            margin-bottom: 100px;
+        }
+
+        #small-divs {
+            display: flex;
+            justify-content: space-around;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 300px;
+
+        }
+
+        .texts {
+            width: 240px;
+            font-size: 20px;
+            color: rgb(73, 75, 87);
+            font-weight: 500;
+        }
+
+        #selected {
+            font-size: 50px;
+            margin-left: 100px;
+            color: rgb(73, 75, 87);
+            font-weight: 700;
+            margin-bottom: 100px;
+        }
+
+        .box {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: auto;
+            width: 300px;
+            text-align: start;
+            padding-left: 50px;
+            border-radius: 15px;
+            cursor: pointer;
+
+        }
+
+        .img-pad {
+            padding-top: 30px;
+            padding-bottom: 100px;
+
+        }
+
+        .smll-txt {
+            font-size: 30px;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 20px;
+        }
+
+        .txtss {
+            font-size: 20px;
+            width: 170px;
+            color: rgb(73, 75, 87);
+            font-weight: 700;
+            padding-bottom: 40px;
+        }
+
+        #fourth-div {
+            margin-left: 50px;
+            margin-right: 50px;
+            display: flex;
+            gap: 20px;
+        }
+
+        #fifth-div {
+            display: flex;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            gap: 20px;
+        }
+
+        #sixth-div {
+            display: flex;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px;
+            gap: 20px;
+            margin-bottom: 100px;
+        }
+
+        #last-section>div {
+            font-size: 50px;
+            font-weight: 700;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+
+        }
+
+        .last-div-img {
+            width: 378px;
+            height: 264;
+            border-radius: 24px;
+        }
+
+        .secondlast-txts {
+            width: 380px;
+            font-size: 20px;
+            color: black;
+            font-weight: 700;
+        }
+
+        .lastline {
+            font-size: 20px;
+        }
+
+        #last-one-divs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 100px;
+        }
+
+        main {
+            border-radius: 50px;
+        }
+        #small-divs:hover .one:not(:hover){
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div>
+                    <div><img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="logo"></div>
+                    <div id="smalldiv">
+                        <div>Products</div>
+                        <div>Coins</div>
+                        <div>Ventures</div>
+                        <div>Blog</div>
+                        <div>Company</div>
+                        <button id="firstbutton">Login To Pro</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div id="second-child">
+                <img src="https://coinswitch.co/_next/static/media/logo.01525825.svg" alt="logo">
+                <div id="venture">ventures</div>
+            </div>
+            <div id="first-text">Your Innovation</div>
+            <div id="second-text">Our Fuel</div>
+            <div id="third-text">CoinSwitch Ventures invests in the most promising Web3 and blockchain projects in
+                India. Does that sound like you?</div>
+            <div><button id="second-button">Apply Now</button></div>
+        </div>
+        <section>
+            <div id="third-div">
+                <img id="second-image"
+                    src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/blockchain.webp" alt="img">
+                <div id="long-text">We believe that Web3 and blockchain are the foundations of the new digital,
+                    decentralized economy.</div>
+            </div>
+        </section>
+        <section>
+            <div id="small">Why it Matters?</div>
+        </section>
+        <section>
+            <div id="small-divs">
+                <div class="one">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/partnership.svg"
+                        alt="">
+                    <div class="texts">Partnership with India’s largest wealth tech destination</div>
+                </div>
+                <div class="one">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/network.svg" alt="">
+                    <div class="texts">Access to a network of 70+ global venture capital partners</div>
+                </div>
+                <div class="one">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/capital.svg" alt="">
+                    <div class="texts">Capital infusion up to $250,000</div>
+                </div>
+                <div class="one">
+                    <img src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mentorship.svg" alt="">
+                    <div class="texts">Mentorship from in-house experts</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="selected">Our Selected Portfolio</div>
+        </section>
+        <section>
+            <div id="fourth-div">
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/pyor.svg" alt="">
+                    <div class="smll-txt">PYOR</div>
+                    <div class="txtss">Blockchain Data & research</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/silencelab.svg" alt="">
+                    <div class="smll-txt">Silence Labs</div>
+                    <div class="txtss">Web3 Wallet tech provider</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/shield.svg" alt="">
+                    <div class="smll-txt">Shield</div>
+                    <div class="txtss">Web3 Community management tools</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/polytrade.svg" alt="">
+                    <div class="smll-txt">PolyTrade</div>
+                    <div class="txtss">DeFi liquidity for trade finance</div>
+                </div>
+            </div>
+            <div id="fifth-div">
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/airstack.svg" alt="">
+                    <div class="smll-txt">AirStack</div>
+                    <div class="txtss">Blockchain Data analytics</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/playzap.svg" alt="">
+                    <div class="smll-txt">playzap</div>
+                    <div class="txtss">Skill-to-earn Web3 gaming platform</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/BlockScholes.svg"
+                        alt="">
+                    <div class="smll-txt">BlockScholes</div>
+                    <div class="txtss">Institutional-grade crypto analytics</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/stan.svg" alt="">
+                    <div class="smll-txt">Stan</div>
+                    <div class="txtss">E-sports Fan Engagement Platform</div>
+                </div>
+            </div>
+            <div id="sixth-div">
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/WallChain.svg" alt="">
+                    <div class="smll-txt">WallChain</div>
+                    <div class="txtss">Most used MEV rebate solution for EVM chains</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/nGrave.svg" alt="">
+                    <div class="smll-txt">NGrave</div>
+                    <div class="txtss">Saffest crypto gold wallet</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/griffy.svg" alt="">
+                    <div class="smll-txt">Griffy</div>
+                    <div class="txtss">Nasdaq for opinion trading</div>
+                </div>
+                <div class="box">
+                    <img class="img-pad"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/bitscrunch.svg" alt="">
+                    <div class="smll-txt">BitsCrunch</div>
+                    <div class="txtss">NFT forencis tool</div>
+                </div>
+            </div>
+        </section>
+        <section id="last-section">
+            <div>Media</div>
+        </section>
+        <section>
+            <div id="last-one-divs">
+                <div id="last-section-div">
+                    <img class="last-div-img"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mediaimage1.png" alt="">
+                    <p class="secondlast-txts">Web3 protocol Polytrade raises $3.8M to improve global trade</p>
+                    <p class="lastline">30 March 2023</p>
+                </div>
+                <div>
+                    <img class="last-div-img"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mediaimage2.png" alt="">
+                    <p class="secondlast-txts">Crypto analytics firm Block Scholes raises $3.3 million to boost
+                        growth</p>
+                    <p class="lastline">10 November 2023</p>
+                </div>
+                <div>
+                    <img class="last-div-img"
+                        src="https://s3.ap-southeast-1.amazonaws.com/files.coinswitch.co/images/mediaimage3.png" alt="">
+                    <p class="secondlast-txts">PYOR raises $4mn in seed funding led by Castle Island Ventures</p>
+                    <p class="lastline">18 May 2023</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
